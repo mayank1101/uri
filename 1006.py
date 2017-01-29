@@ -1,0 +1,5 @@
+A = float(raw_input())
+B = float(raw_input())
+C = float(raw_input())
+MEDIA = float(((2 * A) + (3 * B) + (5 * C))/(2 + 3 + 5))
+print ('MEDIA = %.1f'%MEDIA)

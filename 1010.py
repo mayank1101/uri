@@ -1,0 +1,5 @@
+product1 = raw_input().split(" ")
+product2 = raw_input().split(" ")
+cost1 = float(int(product1[1]) * float(product1[2]))
+cost2 = float(int(product2[1]) * float(product2[2]))
+print ('VALOR A PAGAR: R$ %.2f'% float(cost1 + cost2))

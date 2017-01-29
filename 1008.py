@@ -1,0 +1,6 @@
+NUM = int(raw_input())
+WORKING_HR = int(raw_input())
+AMOUNT = float(raw_input())
+SAL = float(WORKING_HR * AMOUNT)
+print('NUMBER = %d'%NUM)
+print('SALARY = U$ %.2f'%SAL)
